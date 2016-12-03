@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 '''
 	Advent of code day 3
 	http://adventofcode.com/2016/day/3
