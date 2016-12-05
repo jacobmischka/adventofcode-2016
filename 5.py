@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 '''
 	Advent of code 2016 day 5
 	http://adventofcode.com/2016/day/5
@@ -29,7 +30,7 @@ def part2():
 	index = 0
 	password = ['-' for x in range(8)]
 	print(password)
-	for i in range(8):
+	for _ in range(8):
 		char_found = False
 		while not char_found:
 			index_hash = md5()
