@@ -48,5 +48,5 @@ def part2():
 	return len(ssl_addresses)
 
 if __name__ == '__main__':
-	# print(str(part1()))
+	print(str(part1()))
 	print(str(part2()))
